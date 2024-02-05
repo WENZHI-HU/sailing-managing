@@ -1,3 +1,38 @@
+before start the code, u should download git in your computer, and then use the following command to clone the code to your computer:
+
+git clone https://github.com/WENZHI-HU/sailing-managing.git 
+  
+it will create a folder named "sailing-managing" in your computer, and then you can use the following command to update the code:
+
+git checkout master
+
+
+before you update the code, you should use the following command to check if there is any update and swithch to the master branch(where i set code as the latest version):
+
+then, create ur own branch to update the code, it can ensure all changes by u can be recorded,
+
+DON'T USE THE MASTER BRANCH TO UPDATE THE CODE!!!
+
+git checkout -b your_branch_name
+these command create a new branch and switch to it, then u can use the following command to update the code:
+
+don't be silly, no body use terminal to update the code :) 
+listen what i said in lecture.
+
+to whom forget what i said, use the following command to update the code:
+git add .
+git commit -m "type sth"
+git push origin your_branch_name
+then, go to the github website, and create a pull request, and then i will check the code and merge it to the master branch.
+
+
+
+
+
+
+
+
+
 before run the code, you need to install the following packages:
 
 pip install PyQt5
