@@ -25,6 +25,8 @@ don't be silly, no body use terminal to update the code :)
 listen what i said in workshop .
 
 to whom forget what i said, use the following command to update the code:
+git pull origin your_branch_name   (get the latest code from the branch)
+
 git add .
 git commit -m "type sth"
 git push origin your_branch_name

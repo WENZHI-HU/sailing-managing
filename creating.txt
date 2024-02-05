@@ -1,0 +1,27 @@
+brief lesson about how to create your own git and push and .....
+# 1. create a new repository from the github website.
+
+
+open github website, click the plus sign on the top right corner, select new repository, 
+then fill in the name of the repository, select public or private, then click create repository.
+add readme file, add .gitignore file, add license, then click create repository.(or not, doesn't matter) I did had a conflict with the 
+readme file, cuz I already had one and didn't realize that, and spend couple minutes on this silly issue.
+
+# 2. create a new folder on your local computer, and open it with terminal in the vscode(or sth else).
+click the third things on vscode, which looks like a net. It will hint u to download the git, then click yes. 
+open terminal from the vscode, 
+type 
+git init
+
+then type 
+git remote add origin https://github.com/... the website of the repository. 
+then type 
+git pull origin master
+, then type 
+git add .
+, then type 
+git commit -m "first commit"
+, then type 
+git push -u origin master.   use the button not command!!! that't too silly to use command to push the first time. 
+then type git status, then type git log, then type git branch, then type git checkout -b "new branch name", then type git push origin "new branch name".
+then type git checkout master, then type git merge "new branch name", then type git push origin master.
