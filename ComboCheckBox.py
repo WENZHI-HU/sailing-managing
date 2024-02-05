@@ -7,7 +7,7 @@ global classIds
 classIds = ''
 
 
-# 全选与单选的绑定（没有这个会导致勾选数据错乱）
+
 def show_text(function):
     def wrapped(self, *args, **kwargs):
         global classIds
@@ -31,7 +31,7 @@ def show_text(function):
     return wrapped
 
 
-# 选项的渲染和选择后的显示
+
 class QComboCheckBox(QComboBox):
     class MyListView(QListView):
         def __init__(self, parent: QWidget = None, vars=None):
