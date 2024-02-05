@@ -1,9 +1,4 @@
-"""
-项目名称：python pyqt5 mysql 学生管理系统
-作者：bhml
-时间：2022/11/28
-代码功能：数据库链接与交互
-"""
+
 
 import pymysql
 import hashlib

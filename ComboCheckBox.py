@@ -1,9 +1,4 @@
-"""
-项目名称：python pyqt5 mysql 学生管理系统
-作者：bhml
-时间：2022/11/28
-代码功能：用户添加与修改选择框设置类
-"""
+
 from PyQt5.QtWidgets import QWidget, QComboBox, QLineEdit, QListView
 from PyQt5.QtGui import QStandardItemModel, QStandardItem, QMouseEvent
 from PyQt5.Qt import Qt

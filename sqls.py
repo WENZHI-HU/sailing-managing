@@ -10,10 +10,7 @@ def login(username, password):
 
 # 02根据id查询班级列表
 def getClassList(idStr, name=""):
-    """
-    :param idStr: id，多个用','分隔。0表示获取所有数据
-    :return:
-    """
+
     sql = "select * from class_ where c_name like '%" + name + "%'"
     if idStr == "0":
         pass
@@ -24,10 +21,7 @@ def getClassList(idStr, name=""):
 
 # 03获取学生信息
 def getStudentById(id):
-    """
-    :param id: s_id 学生id
-    :return:
-    """
+
     sql = "select * from student where s_id=" + str(id)
     return sql
 

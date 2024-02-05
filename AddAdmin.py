@@ -1,9 +1,4 @@
-"""
-项目名称：python pyqt5 mysql 学生管理系统
-作者：bhml
-时间：2022/11/28
-代码功能：添加用户界面设计与功能实现
-"""
+
 import sys
 
 from PyQt5 import QtCore, QtWidgets
