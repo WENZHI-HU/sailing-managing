@@ -11,9 +11,14 @@ before you update the code, you should use the following command to check if the
 
 then, create ur own branch to update the code, it can ensure all changes by u can be recorded,
 
+
 DON'T USE THE MASTER BRANCH TO UPDATE THE CODE!!!
 
+
 git checkout -b your_branch_name
+
+
+
 these command create a new branch and switch to it, then u can use the following command to update the code:
 
 don't be silly, no body use terminal to update the code :) 
