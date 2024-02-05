@@ -4,20 +4,6 @@
 import os
 from PyQt5 import QtCore, QtWidgets
 import sys
-
-
-#comment+
-
-
-
-
-
-
-
-
-
-
-
 import qtawesome
 from PyQt5.QtWidgets import *
 import pandas as pd
