@@ -22,7 +22,7 @@ git checkout -b your_branch_name
 these command create a new branch and switch to it, then u can use the following command to update the code:
 
 don't be silly, no body use terminal to update the code :) 
-listen what i said in lecture.
+listen what i said in workshop .
 
 to whom forget what i said, use the following command to update the code:
 git add .
