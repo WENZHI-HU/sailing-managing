@@ -22,6 +22,12 @@ git add .
 , then type 
 git commit -m "first commit"
 , then type 
-git push -u origin master.   use the button not command!!! that't too silly to use command to push the first time. 
+git push -u origin master/main some version is strange and use the master as the branch. 
+if you want to use the main as the branch, then type
+git branch
+to check the branch, then type 
+git branch -m master main
+
+  had better use the selections not the command!!! that't too silly to use command to push the first time. 
 then type git status, then type git log, then type git branch, then type git checkout -b "new branch name", then type git push origin "new branch name".
 then type git checkout master, then type git merge "new branch name", then type git push origin master.
